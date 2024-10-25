@@ -1,0 +1,104 @@
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+  body {
+    text-align: start;
+    font-family: sans-serif;
+    background-color:gray;
+    line-height: 3.4;
+    font-size: 30px;
+    background-image:url(imagenes/anatomiaaa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    align-items: left;
+    display: flex;
+    animation: moverFondo 40s infinite linear;
+  }
+
+  @keyframes moverFondo{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 0;
+    }
+  }
+
+
+  .header{
+    list-style: none ;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  }
+
+  .head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3px 0;
+    text-align: end;
+    z-index: 1000;
+  }
+
+ 
+
+  .navbar{
+    display: flex;
+    margin-left: 190px;
+  }
+
+  .navbar a{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    overflow: hidden;
+  }
+
+  .navbar a:hover{
+    background-color: rgb(109, 109, 145);
+  }
+  .title{
+    font-weight: 10px;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: black;
+    padding: 30px 30px;
+    margin: 30px 30px;
+  }
+a{
+    display: inline-block;
+    border: 10px solid white;
+    text-decoration: none;
+    color: beige;
+    background-color: beiges;
+}
+
+@keyframes entrardesdedere{
+  from {
+     transform: translateX(-200%);
+   }
+   to {
+     transform: translate(0);
+ }
+  }
+.cuadro{
+  margin: 20px;
+  padding: 20px;
+}
+

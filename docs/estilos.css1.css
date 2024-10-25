@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #8bbff3;
+    line-height: 3.4;
+    background-image:url(imagenes/oseoo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    align-items: center;
+    display: flex;
+    animation: moverFondo 40s infinite linear;
+  }
+  @keyframes moverFondo{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 0;
+    }
+  }
+  .header{
+    list-style: none ;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  
+  .navbar{
+    display: flex;
+    margin-left: 190px;    
+    background-color: black;
+  }
+
+ a{
+  display: inline-block;
+  border: 10px solid black;
+  text-decoration: none;
+  color: beige;
+  background-color: beiges;
+}
+@keyframes entrardesdedere{
+  from {
+     transform: translateX(-200%);
+   }
+   to {
+     transform: translate(0);
+ }
+}
+.header{
+    list-style: none ;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 3px 0;
+  text-align: end;
+  z-index: 1000;
+}
+.navbar{
+  display: flex;
+  margin-left: 190px;
+}
+.navbar a{
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  overflow: hidden;
+}
+.navbar a:hover{
+  background-color: rgb(109, 109, 145);
+}
+
+.cuadro{
+  margin: 100px;
+  padding: 100px;
+  text-align: left;
+  color: white;
+  float: left;
+  font-size: 34px;
+
+}
+.container{
+  margin: 100px;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-size: 34px;
+
+}
+@keyframes entrardesdedere{
+  from {
+     transform: translateX(-200%);
+   }
+   to {
+     transform: translate(0);
+ }
+  }
+a{
+  display: inline-block;
+  border: 10px solid white;
+  text-decoration: none;
+  color: beige;
+  background-color: beiges
+}
+h2{
+  text-align: left;
+  color: white;
+}
+li{
+  text-align: left;
+}
+
+
+
+
+
+
+

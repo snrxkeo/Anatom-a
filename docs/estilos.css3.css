@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #8bbff3;
+    line-height: 3.4;
+    background-image:url(imagenes/sistemanervioso.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    align-items: center;
+    display: flex;
+    animation: moverFondo 10s infinite linear;
+  }
+  @keyframes moverFondo{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 0;
+    }
+  }
+    
+      
+      
+      
+    .head {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: none;
+      color: white;
+      padding: 3px 0;
+      text-align: end;
+      z-index: 1000;
+    }
+    .navbar{
+      display: flex;
+      margin-left: 190px;
+    }
+    .navbar a{
+      display: flex;
+      padding: 10px 10px 10px 10px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 15px;
+      overflow: hidden;
+    }
+    .navbar a:hover{
+      background-color: rgb(109, 109, 145);
+    }
+    
+      .container{
+        margin: 40px;
+        padding: 40px;
+        text-align: center;
+        color: white;
+        font-size: 27px;
+      }
+      @keyframes entrardesdedere{
+        from {
+           transform: translateX(-200%);
+         }
+         to {
+           transform: translate(0);
+       }
+        }
+      a{
+        display: inline-block;
+        border: 10px solid white;
+        text-decoration: none;
+        color: beige;
+        background-color:black;
+      }
+      h2{
+        text-align: left;
+        color: white;
+      }
+      li{
+        text-align: left;
+      }

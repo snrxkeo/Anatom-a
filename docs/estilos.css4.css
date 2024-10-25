@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+  text-align: start;
+  font-family: sans-serif;
+  background-color: #8bbff3;
+  line-height: 3.4;
+  background-image:url(imagenes/SIH.jpeg);
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  align-items: start;
+  display: flex;
+  animation: moverFondo 5s infinite linear;
+}
+@keyframes moverFondo{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+  
+  .navbar{
+    display: flex;
+    margin-left: 190px;    
+    background-color: black;
+  }
+  a{
+    display: inline-block;
+    border: 10px solid black;
+    text-decoration: none;
+    color: beige;
+    background-color: beiges;
+  }
+  @keyframes entrardesdedere{
+    from {
+       transform: translateX(-200%);
+     }
+     to {
+       transform: translate(0);
+   }
+  }
+  
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3px 0;
+    text-align: end;
+    z-index: 1000;
+  }
+  .navbar{
+    display: flex;
+    margin-left: 190px;
+  }
+  .navbar a{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    overflow: hidden;
+  }
+.navbar a:hover{
+  background-color: rgb(109, 109, 145);
+}
+.cuadro{
+   
+  color: black;
+  margin: 70px;
+  padding: 40px;
+    font-size: 27px; 
+    font-weight: bold
+  }
+    a{
+        display: inline-block;
+        border: 10px solid white;
+        text-decoration: none;
+        color: beige;
+        background-color: beiges
+      }
+      .container ul li{
+        text-align: center;
+      }
+      .h2{
+        text-align: center;
+       
+
+       }
+      
+      
+      
+      
+      
+      
+      
